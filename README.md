@@ -7,6 +7,11 @@ This repository implements **Deep Brownian Distance Covariance (DeepBDC)** integ
 
 ---
 
+![image](https://github.com/user-attachments/assets/4d39f040-824d-4d75-a1b6-0e0243356677)
+
+
+---
+
 ## **Code Prerequisites**
 
 Before running the code, ensure the following dependencies are installed:
@@ -122,16 +127,3 @@ MCL
 
 4. **Few-Shot Learning Tasks**:
    - Supports N-way K-shot learning tasks with various configurations (1-shot, 5-shot).
-
----
-
-## **Acknowledgements**
-
-- Pretraining configurations are inspired by [FRN](https://github.com/Tsingularity/FRN).
-- Dataset courtesy of [DeepEMD](https://github.com/icoz69/DeepEMD).
-
----
-
-### **Start Your Own Methods**
-
-Implement your own few-shot methods within this framework. Add your method under the `./modules/query/` directory following existing implementations. 
