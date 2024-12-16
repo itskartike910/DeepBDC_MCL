@@ -1,0 +1,23 @@
+train:
+    batch_size: 1
+    episode_per_epoch: 20
+    epochs: 1
+    lr_decay_epoch: 10
+    lr_decay: 0.5
+    learning_rate: 0.001
+    optim: "SGD"
+
+model:
+    query: "MEL"
+    encoder: "R12"
+    # image_height: 84
+    # image_width: 84
+    # dimension_reduction: 512
+
+    mel:
+        gamma: 20.0
+        gamma2: 10.0
+
+test:
+    batch_size: 1
+
